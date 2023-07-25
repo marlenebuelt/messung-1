@@ -28,6 +28,6 @@ def get_change(model_value, baseline_value):
     if model_value == baseline_value:
         return 0
     try:
-        return (abs(model_value - baseline_value) / baseline_value) * 100.0
+        return ((model_value - baseline_value) / baseline_value) * 100.0
     except ZeroDivisionError:
         return float('inf')
