@@ -30,3 +30,4 @@ Data for support vector machine measurements
 mean_to_bl.py - compares mean values of the measurement per model to baseline values
 methods.py - service class for the methods used across all analysis files
 ttest.ipynb - significance tests and effect size tests (ttest and cohen's d)
+shapiro-wilk.ipynb - tests for normality
